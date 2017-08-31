@@ -346,7 +346,7 @@ class CalculateCurrencies{
                 let optionRSD = document.createElement("option");
                 optionRSD.value = "RSD";
                 optionRSD.innerHTML = "RSD";
-                // optionRSD.setAttribute("disabled", "disabled");
+                optionRSD.setAttribute("disabled", "disabled");
     
                 this.currencies.innerHTML = "";
                 this.currencies.appendChild(optionEUR);
@@ -360,7 +360,7 @@ class CalculateCurrencies{
                 let optionEUR = document.createElement("option");
                 optionEUR.value = "EUR";
                 optionEUR.innerHTML = "EUR";
-                // optionEUR.setAttribute("disabled", "disabled");
+                optionEUR.setAttribute("disabled", "disabled");
     
                 let optionUSD = document.createElement("option");
                 optionUSD.value = "USD";
