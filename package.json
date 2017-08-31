@@ -1,0 +1,14 @@
+{
+  "name": "Currency_Convertor",
+  "version": "1.0.0",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "express": "^4.15.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "request": "^2.81.0",
+    "requestify": "^0.2.5"
+  }
+}
