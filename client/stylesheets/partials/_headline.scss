@@ -1,0 +1,21 @@
+
+
+header{
+    background: #5fbcd3;
+    h1{
+      padding: 20px;
+      font-size: 4em;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  @media all and (max-width: 860px){
+    
+    header{
+      h1{
+        font-size: 3em;
+      }
+    }
+
+}
