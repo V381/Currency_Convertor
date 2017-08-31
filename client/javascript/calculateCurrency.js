@@ -19,26 +19,6 @@ class CalculateCurrencies{
         this.rightWidgetCurrencies = document.querySelector(".currency-convertor__currencies-to-convert");
     }
 
-    validateInput(input){
-
-        // Prevent input to be less than zero
-        // Prevent typing minus and letters
-
-
-        // input.onkeydown = (e) => {
-        //     // if(!((e.keyCode > 95 && e.keyCode < 106)
-        //     //     || (e.keyCode > 47 && e.keyCode < 58) 
-        //     //     || e.keyCode == 8)) {
-        //     //       return false;
-        //     //   }
-        // }
-
-        // if(input.value.length === 0 || input.value < 0){
-        //     input.value = 1;
-        // }
-        
-    }
-
     setDefaultValues(){
         this.valuesToConvert.value = 1;
         this.valuesToConvert.click();
@@ -404,6 +384,10 @@ class CalculateCurrencies{
 
             // location.reload();
         });
+    }
+
+    validateInput(input){
+        
     }
 
 }
